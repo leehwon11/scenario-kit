@@ -6,7 +6,7 @@
 <title>포스트 빌더</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-html,body{height:100%;font-family:'Malgun Gothic','Apple SD Gothic Neo',sans-serif;font-size:14px;background:#1a1a1a;color:#e8e0d5}
+html,body{height:100%;font-family:'Malgun Gothic','Apple SD Gothic Neo',sans-serif;font-size:14px;color:#e8e0d5}
 #app{display:grid;grid-template-columns:200px 1fr;height:100vh}
 #sidebar{background:#111;border-right:1px solid #2a2a2a;overflow-y:auto;padding:12px 8px;display:flex;flex-direction:column;gap:5px}
 #sidebar h3{font-size:10px;font-weight:500;color:#555;letter-spacing:.07em;margin:4px 2px 2px}
@@ -57,7 +57,7 @@ select.finput{height:30px;resize:none}
 .mode-tabs{display:flex;gap:4px;margin-bottom:8px;flex-wrap:wrap}
 .mode-tab{font-size:10px;padding:3px 8px;border:1px solid #333;border-radius:5px;cursor:pointer;color:#888;background:#1e1e1e;transition:all .12s}
 .mode-tab.active{background:#c4986a;color:#1a1a1a;border-color:#c4986a;font-weight:600}
-#preview-wrap{flex:1;overflow-y:auto;padding:0;background:#FBF6EE}
+#preview-wrap{flex:1;overflow-y:auto;padding:0;}
 #preview-inner{padding:20px;max-width:640px;margin:0 auto}
 #code-wrap{flex:1;display:flex;flex-direction:column;overflow:hidden}
 #code-out{flex:1;overflow-y:auto;padding:14px;font-family:'Consolas','D2Coding',monospace;font-size:12px;line-height:1.7;color:#c8c0b5;white-space:pre-wrap;word-break:break-all;background:#111}
@@ -86,7 +86,7 @@ select.finput{height:30px;resize:none}
 #preview-inner .dialogue-text{font-size:14px;color:#2A2018;line-height:1.9;padding-left:14px;border-left:2px solid rgba(196,152,106,.18)}
 #preview-inner .illust-block{margin:16px 0;border:1px solid rgba(196,152,106,.35);background:#F3EBD8;overflow:hidden}
 #preview-inner .illust-block img{width:100%;display:block}
-#preview-inner .illust-caption{padding:8px 14px;font-size:10px;color:#9A8878;text-align:center;font-style:italic;border-top:1px solid rgba(196,152,106,.18);background:#FBF6EE}
+#preview-inner .illust-caption{padding:8px 14px;font-size:10px;color:#9A8878;text-align:center;font-style:italic;border-top:1px solid rgba(196,152,106,.18);}
 #preview-inner .choice-block{margin:16px 0;border:1px solid rgba(196,152,106,.35);background:#F3EBD8;overflow:hidden}
 #preview-inner .choice-label{padding:10px 16px;background:linear-gradient(90deg,transparent,rgba(196,152,106,.15),transparent);border-bottom:1px solid rgba(196,152,106,.35);font-size:9px;letter-spacing:4px;color:#C4986A;text-align:center;font-weight:300}
 #preview-inner .choice-btn{display:flex;align-items:center;gap:12px;width:100%;padding:14px 20px;background:#FBF6EE;border:none;border-bottom:1px solid rgba(196,152,106,.18);cursor:pointer;text-align:left;font-size:13px;color:#2A2018;font-family:'Malgun Gothic','Apple SD Gothic Neo',sans-serif}
